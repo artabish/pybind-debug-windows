@@ -1,0 +1,4 @@
+.vscode
+my_add.cp311-mingw_x86_64.pyd
+build/temp.mingw_x86_64-3.11/add.o
+build/temp.mingw_x86_64-3.11/my_add.cp311-mingw_x86_64.def
