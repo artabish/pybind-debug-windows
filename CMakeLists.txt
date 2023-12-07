@@ -11,5 +11,4 @@ find_package(pybind11 REQUIRED)
 # Create the pybind11 module
 pybind11_add_module(my_add SHARED add.cpp)
 
-target_link_libraries(my_add PRIVATE #-fno-lto
-    -static -static-libstdc++ -static-libgcc)
+target_link_libraries(my_add PRIVATE -static-libstdc++ -static-libgcc)
